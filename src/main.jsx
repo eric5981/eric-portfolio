@@ -12,6 +12,7 @@ import About from './About.jsx'
 import NotFound from './NotFound.jsx'
 import PageTransition from './PageTransition.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 
 const router = createBrowserRouter([
   {
@@ -55,5 +56,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
+    <Analytics />
   </StrictMode>,
 )
