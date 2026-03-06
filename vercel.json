@@ -15,6 +15,10 @@
       "dest": "/assets/$1"
     },
     {
+      "src": "/icons/(.*)",
+      "dest": "/icons/$1"
+    },
+    {
       "src": "/profile-photo.png",
       "dest": "/profile-photo.png"
     },
