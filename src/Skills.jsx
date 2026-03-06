@@ -33,11 +33,11 @@ function Skills() {
   }, [])
 
   const software = [
-    { name: "Visual Studio", icon: "/icons/visualstudio.png", type: "image", color: "#9B59D0" },
-    { name: "DBeaver", icon: "/icons/dbeaver.svg", type: "image", color: "#7A7A7A" },
-    { name: "Cursor", icon: "/icons/cursor.png", type: "image", color: "#808080" },
-    { name: "SSMS", icon: "/icons/ssms.png", type: "image", color: "#0078D4" },
-    { name: "Postman", icon: "/icons/postman.png", type: "image", color: "#FF6C37" }
+    { name: "Visual Studio", icon: "💻", type: "emoji", color: "#9B59D0" },
+    { name: "DBeaver", icon: "🗄️", type: "emoji", color: "#7A7A7A" },
+    { name: "Cursor", icon: "✏️", type: "emoji", color: "#808080" },
+    { name: "SSMS", icon: "🔧", type: "emoji", color: "#0078D4" },
+    { name: "Postman", icon: "📮", type: "emoji", color: "#FF6C37" }
   ]
 
   const technicalSkills = [
@@ -98,7 +98,7 @@ function Skills() {
                   {item.type === 'image' ? (
                     <img src={item.icon} alt={item.name} className="software-icon-img" />
                   ) : (
-                    <span className="software-icon" style={{color: item.color}}>{item.icon}</span>
+                    <span className="software-icon">{item.icon}</span>
                   )}
                   <span className="software-name">{item.name}</span>
                 </div>
