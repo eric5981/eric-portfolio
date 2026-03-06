@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/profile-photo.png",
+      "dest": "/profile-photo.png"
+    },
+    {
+      "src": "/resume.pdf",
+      "dest": "/resume.pdf"
+    },
+    {
+      "src": "/favicon.png",
+      "dest": "/favicon.png"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
