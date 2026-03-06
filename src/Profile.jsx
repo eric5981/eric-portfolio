@@ -96,7 +96,14 @@ function Profile() {
               </p>
               <p>📍 Kuala Lumpur</p>
               <p className="linkedin-link">
-                💼 <a href="https://www.linkedin.com/in/ewts/" target="_blank" rel="noopener noreferrer" data-url="linkedin.com/in/ewts">LinkedIn</a>
+                💼 <a 
+                  href="https://www.linkedin.com/in/ewts/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  title="linkedin.com/in/ewts"
+                >
+                  LinkedIn
+                </a>
               </p>
             </div>
           </div>
