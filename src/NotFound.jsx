@@ -19,14 +19,14 @@ function NotFound() {
           </button>
         </div>
 
-        <div className="suggestions">
+        {/* <div className="suggestions">
           <p>You can visit these pages:</p>
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/dashboard">Dashboard</Link></li>
             <li><Link to="/about">About</Link></li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   )
